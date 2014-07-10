@@ -198,7 +198,7 @@ describe("Events", function() {
 
     expect(bark).toBe(true);
 
-  })
+  });
 
   it("Calling trigger should call all the functions of an event", function(){
 
