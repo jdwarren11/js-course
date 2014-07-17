@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quiz</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!-- <h1>header</h1> -->
+    <div class="row main large">
+      <h1>FUTBOL QUIZO</h1>
+    </div>
+      <div class="row main">
+        <div class="large-9 columns">
+          <div class="large-10 large-centered columns">
+            <div class="title">
+              <h1>Questions</h1>
+            </div>
+          </div>
+          <div class="large-10 large-centered columns">
+            <section>
+              <div class="question"></div>
+            </section>
+          </div>
+          <div class="large-10 large-centered columns">
+            <input id="name-input" type="text" placeholder="Enter Name Here"/>
+          </div>
+          <div class="large-10 large-centered columns">
+            <!-- <section>
+              <div class="answers" style="display:none">
+                <form action="">
+                  <label class="one"><input type="radio" name="answer" value="0"></label>
+                  <br>
+                  <label class="two"><input type="radio" name="answer" value="1"></label>
+                  <br>
+                  <label class="three"><input type="radio" name="answer" value="2"></label>
+                  <br>
+                  <label class="four"><input type="radio" name="answer" value="3"></label>
+                  <br>
+                </form>
+              </div>
+            </section> -->
+            <section>
+              <div class="answers" style="display:none">
+                <form action-"">
+                  <table class="choices">
+                    <tr>
+                      <td>
+                        <label class="one"><input type="radio" name="answer" value="0"></label>
+                      </td>
+                      <td>
+                        <label class="two"><input type="radio" name="answer" value="1"></label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label class="three"><input type="radio" name="answer" value="2"></label>
+                      </td>
+                      <td>
+                        <label class="four"><input type="radio" name="answer" value="3"></label>
+                      </td>
+                    </tr>
+                  </table>
+                </form>
+              </div>
+            </section>
+
+
+            <div class="large-10 large-centered columns">
+              <section>
+                <button class="submit success" style="display:none">Submit</button>
+                <button class="start">Start</button>
+                <button class="newgame" style="display:none">New Game</button>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="large-3 columns">
+          <div class="leaderboard">
+            <h1>Leaderbord</h1>
+            <ol class="place"></ol>
+          </div>
+        </div>
+
+
+  <script type="text/javascript" src="js/vendor/jquery.min.js"></script>
+  <script type="text/javascript" src="js/vendor/foundation.min.js"></script>
+  <script type="text/javascript" src="js/vendor/underscore.js"></script>
+  <script type="text/javascript" src="js/utils.js"></script>
+  <script type="text/javascript" src="js/business-logic.js"></script>
+  <script type="text/javascript" src="js/presentation-ui.js"></script>
+
+  </body>
+</html>

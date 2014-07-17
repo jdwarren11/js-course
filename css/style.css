@@ -1,0 +1,33 @@
+body {
+  background: url('../img/soccer.jpg') no-repeat; 
+  background-size: cover; 
+}
+.main {
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+label {
+  background: white;
+}
+.answers {
+  background: black;
+}
+.choices {
+  width: 100%;
+}
+
+.main.large {
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.main.large h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+}
